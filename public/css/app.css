@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: #eefffb;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 16px;
+    max-width: 800px;
+    min-width: 300px;
+    margin: 0 auto;
+}
+.card-inner {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 16px;
+    max-width: 800px;
+    min-width: 300px;
+    margin: 0 auto;
+}
+.card-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.justify-center{
+    display: flex;
+    justify-content: center;
+}
+.btn {
+    color: #f1f1f1;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    height: 35px;
+}
+
+.btn-primary {
+    background-color: #3490dc;
+    color: #ffffff;
+}
+
+.btn-danger {
+    background-color: #e8454a;
+    color: #ffffff;
+}
+.btn-success {
+    background-color: #49ea44;
+    color: #ffffff;
+}
+
+.btn-primary:hover {
+    background-color: #5493c7;
+    color: #ffffff;
+}
+.form-input {
+    height: 35px;
+    flex: 2;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
